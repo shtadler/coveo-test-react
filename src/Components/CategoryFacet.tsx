@@ -51,6 +51,7 @@ export default class CategoryFacet extends React.Component<
       }
     });
 
+    // @ts-ignore
     this.state = this.headlessCategoryFacet.state;
   }
 

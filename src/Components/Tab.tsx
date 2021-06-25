@@ -11,7 +11,8 @@ interface ITabProps extends TabProps {
 }
 
 export default class HeadlessTab extends React.Component<ITabProps, {}> {
-  private headlessTab: Tab;
+  private headlessTab: any
+
   state: TabState;
 
   constructor(props: any) {
